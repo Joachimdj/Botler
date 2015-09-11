@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888301E61BA2FF4B00C69589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888301E51BA2FF4B00C69589 /* AppDelegate.swift */; };
+		888301E81BA2FF4B00C69589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888301E71BA2FF4B00C69589 /* ViewController.swift */; };
+		888301EB1BA2FF4B00C69589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888301E91BA2FF4B00C69589 /* Main.storyboard */; };
+		888301ED1BA2FF4B00C69589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888301EC1BA2FF4B00C69589 /* Images.xcassets */; };
+		888301F01BA2FF4B00C69589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888301EE1BA2FF4B00C69589 /* LaunchScreen.xib */; };
+		888301FC1BA2FF4B00C69589 /* BotlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888301FB1BA2FF4B00C69589 /* BotlerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888301F61BA2FF4B00C69589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888301D81BA2FF4B00C69589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888301DF1BA2FF4B00C69589;
+			remoteInfo = Botler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888301E01BA2FF4B00C69589 /* Botler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Botler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		888301E41BA2FF4B00C69589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888301E51BA2FF4B00C69589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		888301E71BA2FF4B00C69589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		888301EA1BA2FF4B00C69589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888301EC1BA2FF4B00C69589 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		888301EF1BA2FF4B00C69589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		888301F51BA2FF4B00C69589 /* BotlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888301FA1BA2FF4B00C69589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888301FB1BA2FF4B00C69589 /* BotlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotlerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888301DD1BA2FF4B00C69589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888301F21BA2FF4B00C69589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888301D71BA2FF4B00C69589 = {
+			isa = PBXGroup;
+			children = (
+				888301E21BA2FF4B00C69589 /* Botler */,
+				888301F81BA2FF4B00C69589 /* BotlerTests */,
+				888301E11BA2FF4B00C69589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888301E11BA2FF4B00C69589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888301E01BA2FF4B00C69589 /* Botler.app */,
+				888301F51BA2FF4B00C69589 /* BotlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888301E21BA2FF4B00C69589 /* Botler */ = {
+			isa = PBXGroup;
+			children = (
+				888301E51BA2FF4B00C69589 /* AppDelegate.swift */,
+				888301E71BA2FF4B00C69589 /* ViewController.swift */,
+				888301E91BA2FF4B00C69589 /* Main.storyboard */,
+				888301EC1BA2FF4B00C69589 /* Images.xcassets */,
+				888301EE1BA2FF4B00C69589 /* LaunchScreen.xib */,
+				888301E31BA2FF4B00C69589 /* Supporting Files */,
+			);
+			path = Botler;
+			sourceTree = "<group>";
+		};
+		888301E31BA2FF4B00C69589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888301E41BA2FF4B00C69589 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888301F81BA2FF4B00C69589 /* BotlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				888301FB1BA2FF4B00C69589 /* BotlerTests.swift */,
+				888301F91BA2FF4B00C69589 /* Supporting Files */,
+			);
+			path = BotlerTests;
+			sourceTree = "<group>";
+		};
+		888301F91BA2FF4B00C69589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888301FA1BA2FF4B00C69589 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888301DF1BA2FF4B00C69589 /* Botler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888301FF1BA2FF4B00C69589 /* Build configuration list for PBXNativeTarget "Botler" */;
+			buildPhases = (
+				888301DC1BA2FF4B00C69589 /* Sources */,
+				888301DD1BA2FF4B00C69589 /* Frameworks */,
+				888301DE1BA2FF4B00C69589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Botler;
+			productName = Botler;
+			productReference = 888301E01BA2FF4B00C69589 /* Botler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888301F41BA2FF4B00C69589 /* BotlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888302021BA2FF4B00C69589 /* Build configuration list for PBXNativeTarget "BotlerTests" */;
+			buildPhases = (
+				888301F11BA2FF4B00C69589 /* Sources */,
+				888301F21BA2FF4B00C69589 /* Frameworks */,
+				888301F31BA2FF4B00C69589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888301F71BA2FF4B00C69589 /* PBXTargetDependency */,
+			);
+			name = BotlerTests;
+			productName = BotlerTests;
+			productReference = 888301F51BA2FF4B00C69589 /* BotlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888301D81BA2FF4B00C69589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Joachim Dittman";
+				TargetAttributes = {
+					888301DF1BA2FF4B00C69589 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					888301F41BA2FF4B00C69589 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 888301DF1BA2FF4B00C69589;
+					};
+				};
+			};
+			buildConfigurationList = 888301DB1BA2FF4B00C69589 /* Build configuration list for PBXProject "Botler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888301D71BA2FF4B00C69589;
+			productRefGroup = 888301E11BA2FF4B00C69589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888301DF1BA2FF4B00C69589 /* Botler */,
+				888301F41BA2FF4B00C69589 /* BotlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888301DE1BA2FF4B00C69589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888301EB1BA2FF4B00C69589 /* Main.storyboard in Resources */,
+				888301F01BA2FF4B00C69589 /* LaunchScreen.xib in Resources */,
+				888301ED1BA2FF4B00C69589 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888301F31BA2FF4B00C69589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888301DC1BA2FF4B00C69589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888301E81BA2FF4B00C69589 /* ViewController.swift in Sources */,
+				888301E61BA2FF4B00C69589 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888301F11BA2FF4B00C69589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888301FC1BA2FF4B00C69589 /* BotlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888301F71BA2FF4B00C69589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888301DF1BA2FF4B00C69589 /* Botler */;
+			targetProxy = 888301F61BA2FF4B00C69589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888301E91BA2FF4B00C69589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888301EA1BA2FF4B00C69589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888301EE1BA2FF4B00C69589 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888301EF1BA2FF4B00C69589 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888301FD1BA2FF4B00C69589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		888301FE1BA2FF4B00C69589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888302001BA2FF4B00C69589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Botler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		888302011BA2FF4B00C69589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Botler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		888302031BA2FF4B00C69589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BotlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botler.app/Botler";
+			};
+			name = Debug;
+		};
+		888302041BA2FF4B00C69589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BotlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Botler.app/Botler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888301DB1BA2FF4B00C69589 /* Build configuration list for PBXProject "Botler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888301FD1BA2FF4B00C69589 /* Debug */,
+				888301FE1BA2FF4B00C69589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888301FF1BA2FF4B00C69589 /* Build configuration list for PBXNativeTarget "Botler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888302001BA2FF4B00C69589 /* Debug */,
+				888302011BA2FF4B00C69589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		888302021BA2FF4B00C69589 /* Build configuration list for PBXNativeTarget "BotlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888302031BA2FF4B00C69589 /* Debug */,
+				888302041BA2FF4B00C69589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888301D81BA2FF4B00C69589 /* Project object */;
+}
